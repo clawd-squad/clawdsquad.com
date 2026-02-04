@@ -1,0 +1,29 @@
+{
+  "id": "growth-hacker",
+  "name": "Growth Hacker",
+  "default": false,
+  "workspace": "~/ClawdSquad/GrowthHacker",
+  "model": {
+    "primary": "anthropic/claude-opus-4-5",
+    "fallbacks": [
+      "google-antigravity/claude-sonnet-4-5-thinking",
+      "openrouter/x-ai/grok-4.1-fast"
+    ]
+  },
+  "tools": {
+    "profile": "full",
+    "allow": [
+      "read",
+      "write",
+      "edit",
+      "bash",
+      "web_search",
+      "web_fetch",
+      "bird"
+    ]
+  },
+  "sandbox": {
+    "mode": "off",
+    "workspaceAccess": "rw"
+  }
+}

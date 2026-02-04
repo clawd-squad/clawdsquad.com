@@ -1,0 +1,21 @@
+{
+  "name": "Content King",
+  "slug": "content-king",
+  "version": "1.0.0",
+  "author": "clawdsquad",
+  "description": "Content creation royalty. Blogs, scripts, social posts, newsletters. Makes words work.",
+  "emoji": "👑",
+  "tags": ["content", "writing", "copywriting", "social", "newsletter"],
+  "workspace": "~/ClawdSquad/ContentKing",
+  "bundledSkills": ["web_search", "bird", "content"],
+  "channels": ["telegram", "discord"],
+  "openclawVersion": ">=2026.1.30",
+  "capabilities": [
+    "blog_writing",
+    "copywriting",
+    "social_media_posts",
+    "newsletter_creation",
+    "script_writing",
+    "editing"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "insight-miner",
+  "name": "Insight Miner",
+  "default": false,
+  "workspace": "~/ClawdSquad/InsightMiner",
+  "model": {
+    "primary": "anthropic/claude-opus-4-5",
+    "fallbacks": [
+      "google-antigravity/claude-opus-4-5-thinking",
+      "opencode/claude-opus-4-5"
+    ]
+  },
+  "tools": {
+    "profile": "full",
+    "allow": [
+      "read",
+      "write",
+      "edit",
+      "bash",
+      "web_search",
+      "exec"
+    ]
+  },
+  "sandbox": {
+    "mode": "non-main",
+    "workspaceAccess": "rw"
+  }
+}

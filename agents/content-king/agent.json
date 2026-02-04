@@ -1,0 +1,28 @@
+{
+  "id": "content-king",
+  "name": "Content King",
+  "default": false,
+  "workspace": "~/ClawdSquad/ContentKing",
+  "model": {
+    "primary": "anthropic/claude-opus-4-5",
+    "fallbacks": [
+      "google-antigravity/gemini-3-pro-high",
+      "kimi-code/kimi-for-coding"
+    ]
+  },
+  "tools": {
+    "profile": "full",
+    "allow": [
+      "read",
+      "write",
+      "edit",
+      "web_search",
+      "web_fetch",
+      "bird"
+    ]
+  },
+  "sandbox": {
+    "mode": "off",
+    "workspaceAccess": "rw"
+  }
+}

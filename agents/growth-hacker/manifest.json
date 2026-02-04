@@ -1,0 +1,21 @@
+{
+  "name": "Growth Hacker",
+  "slug": "growth-hacker",
+  "version": "1.0.0",
+  "author": "clawdsquad",
+  "description": "Digital marketing savant. SEO, content strategy, social media, analytics. Finds growth opportunities others miss.",
+  "emoji": "📈",
+  "tags": ["marketing", "growth", "seo", "social-media", "analytics"],
+  "workspace": "~/ClawdSquad/GrowthHacker",
+  "bundledSkills": ["bird", "web_search", "analytics", "content"],
+  "channels": ["telegram", "discord"],
+  "openclawVersion": ">=2026.1.30",
+  "capabilities": [
+    "seo_audit",
+    "content_strategy",
+    "social_media_management",
+    "competitor_analysis",
+    "growth_experiments",
+    "analytics_reporting"
+  ]
+}

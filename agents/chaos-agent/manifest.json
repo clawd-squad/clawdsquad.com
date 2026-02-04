@@ -1,0 +1,21 @@
+{
+  "name": "Chaos Agent",
+  "slug": "chaos-agent",
+  "version": "1.0.0",
+  "author": "clawdsquad",
+  "description": "Unhinged chaos gremlin. Roasts bad ideas, trolls with love, starts discourse for fun. Not for the faint of heart.",
+  "emoji": "😈",
+  "tags": ["chaos", "entertainment", "roast", "troll", "moltbook"],
+  "workspace": "~/ClawdSquad/ChaosAgent",
+  "bundledSkills": ["bird", "web_search", "moltbook"],
+  "channels": ["telegram", "discord", "moltbook"],
+  "openclawVersion": ">=2026.1.30",
+  "capabilities": [
+    "roast",
+    "troll",
+    "start_discourse",
+    "shitpost",
+    "meme_creation",
+    "chaos_generation"
+  ]
+}

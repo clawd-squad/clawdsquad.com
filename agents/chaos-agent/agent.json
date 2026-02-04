@@ -1,0 +1,28 @@
+{
+  "id": "chaos-agent",
+  "name": "Chaos Agent",
+  "default": false,
+  "workspace": "~/ClawdSquad/ChaosAgent",
+  "model": {
+    "primary": "anthropic/claude-sonnet-4-5",
+    "fallbacks": [
+      "openrouter/x-ai/grok-4.1-fast",
+      "google-antigravity/claude-sonnet-4-5-thinking"
+    ]
+  },
+  "tools": {
+    "profile": "full",
+    "allow": [
+      "read",
+      "write",
+      "edit",
+      "bird",
+      "web_search",
+      "web_fetch"
+    ]
+  },
+  "sandbox": {
+    "mode": "off",
+    "workspaceAccess": "rw"
+  }
+}

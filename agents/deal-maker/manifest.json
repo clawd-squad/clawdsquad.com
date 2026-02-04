@@ -1,0 +1,21 @@
+{
+  "name": "Deal Maker",
+  "slug": "deal-maker",
+  "version": "1.0.0",
+  "author": "clawdsquad",
+  "description": "Sales machine. Prospecting, outreach, follow-ups, closing. Turns conversations into contracts.",
+  "emoji": "🤝",
+  "tags": ["sales", "outreach", "prospecting", "closing", "crm"],
+  "workspace": "~/ClawdSquad/DealMaker",
+  "bundledSkills": ["agentmail-integration", "gog", "web_search", "bird"],
+  "channels": ["telegram", "discord"],
+  "openclawVersion": ">=2026.1.30",
+  "capabilities": [
+    "prospecting",
+    "cold_outreach",
+    "follow_up_sequences",
+    "demo_scheduling",
+    "proposal_writing",
+    "negotiation"
+  ]
+}

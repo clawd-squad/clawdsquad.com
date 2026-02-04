@@ -1,0 +1,29 @@
+{
+  "id": "code-ninja",
+  "name": "Code Ninja",
+  "default": false,
+  "workspace": "~/ClawdSquad/CodeNinja",
+  "model": {
+    "primary": "anthropic/claude-opus-4-5",
+    "fallbacks": [
+      "google-antigravity/claude-opus-4-5-thinking",
+      "kimi-code/kimi-for-coding"
+    ]
+  },
+  "tools": {
+    "profile": "full",
+    "allow": [
+      "read",
+      "write",
+      "edit",
+      "bash",
+      "web_search",
+      "web_fetch",
+      "github"
+    ]
+  },
+  "sandbox": {
+    "mode": "off",
+    "workspaceAccess": "rw"
+  }
+}

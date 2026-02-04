@@ -1,0 +1,21 @@
+{
+  "name": "Code Ninja",
+  "slug": "code-ninja",
+  "version": "1.0.0",
+  "author": "clawdsquad",
+  "description": "Elite software development agent. Writes, reviews, and debugs code. Masters of clean architecture and ruthless code review.",
+  "emoji": "🥷",
+  "tags": ["development", "coding", "review", "architecture"],
+  "workspace": "~/ClawdSquad/CodeNinja",
+  "bundledSkills": ["github", "git", "code-review", "testing"],
+  "channels": ["telegram", "discord"],
+  "openclawVersion": ">=2026.1.30",
+  "capabilities": [
+    "write_code",
+    "review_code",
+    "debug_errors",
+    "design_architecture",
+    "write_tests",
+    "refactor_legacy"
+  ]
+}

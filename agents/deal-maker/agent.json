@@ -1,0 +1,30 @@
+{
+  "id": "deal-maker",
+  "name": "Deal Maker",
+  "default": false,
+  "workspace": "~/ClawdSquad/DealMaker",
+  "model": {
+    "primary": "anthropic/claude-opus-4-5",
+    "fallbacks": [
+      "google-antigravity/claude-opus-4-5-thinking",
+      "anthropic/claude-sonnet-4-5"
+    ]
+  },
+  "tools": {
+    "profile": "full",
+    "allow": [
+      "read",
+      "write",
+      "edit",
+      "bash",
+      "web_search",
+      "web_fetch",
+      "agentmail-integration",
+      "bird"
+    ]
+  },
+  "sandbox": {
+    "mode": "off",
+    "workspaceAccess": "rw"
+  }
+}
